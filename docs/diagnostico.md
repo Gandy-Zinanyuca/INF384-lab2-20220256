@@ -10,3 +10,8 @@
 4. Lead time total, frecuencia de despliegue porque con un mejor pipeline los desarrolladores se mantienen motivados porque no se demora mucho en hacer la verificación de código
 5. El máximo al desplegar debería de ser menos de 50 s
 
+# Parte 4
+4.1 El valor de intervención aumentó ligeramente unos segundos con una de las corridas
+4.2 La versión se ajustó tomando en cuenta los mensajes de fix, feat y ! antes del fork porque el fork es para mejoras del pipeline -> 1.4.5
+4.3 Lo que no se resolvió fue que se podría especificar la branch de donde se ejecuta el push
+4.4 se usó la ia para resolver algunas preguntas sobre el funcionamiento del pipeline
