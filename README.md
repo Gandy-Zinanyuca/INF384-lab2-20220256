@@ -51,3 +51,11 @@ configurar el analisis.
 ## Version
 
 La version vigente esta en `VERSION` y en `pyproject.toml`.
+
+##Update 
+Ejecución | Duración | URL
+:--- | :---: | :---:
+1 | 55 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34500206721
+2  | 53 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34500414830
+3 | 58 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34501909891
+
