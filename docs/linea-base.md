@@ -3,11 +3,15 @@
 Ejecutar el workflow tres veces desde la pestana Actions, con **Run workflow**,
 sin modificar ningun archivo del repositorio. Registrar aqui los resultados.
 
-| Ejecucion | Duracion | URL |
-|---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+
+## Update 
+Ejecución | Duración | URL
+:---: | :---: | :---
+1 | 55 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34500206721
+2  | 53 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34500414830
+3 | 58 s | https://github.com/Gandy-Zinanyuca/INF384-lab2-20220256/actions/runs/34501909891
+
+
 
 ## Declaracion de uso de IA generativa
 
