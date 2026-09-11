@@ -82,28 +82,3 @@ def agrupar_por_cliente(pedidos: list[Pedido]) -> dict[str, list[Pedido]]:
 def pedidos_abiertos(pedidos: list[Pedido]) -> list[Pedido]:
     return [p for p in pedidos if not p.esta_cerrado()]
 
-
-def generar_reporte_cliente(pedidos: list[Pedido], cliente: str) -> dict[str, Any]:
-    """Genera un reporte financiero y operativo detallado para un cliente específico.
-
-    Calcula el total gastado, la cantidad de pedidos abiertos, cerrados,
-    y el total de unidades compradas en todos sus pedidos.
-    """
-    pedidos_cliente = [p for p in pedidos if p.cliente == cliente]
-    
-    if not pedidos_cliente:
-        return {"cliente": cliente, "total_pedidos": 0, "monto_total": 0.0}
-
-    monto_total = sum(p.total() for p in pedidos_cliente)
-    unidades_totales = sum(p.unidades() for p in pedidos_cliente)
-    abiertos = len([p for p in pedidos_cliente if not p.esta_cerrado()])
-    cerrados = len([p for p in pedidos_cliente if p.esta_cerrado()])
-
-    return {
-        "cliente": cliente,
-        "total_pedidos": len(pedidos_cliente),
-        "pedidos_abiertos": abiertos,
-        "pedidos_cerrados": cerrados,
-        "unidades_totales": unidades_totales,
-        "monto_total": round(monto_total, 2),
-    }
